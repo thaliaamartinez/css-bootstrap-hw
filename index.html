@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -11,7 +12,6 @@
 </head>
 
 <body>
-    <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <a class="navbar-brand" href="./index.html" style="font-family: 'Josefin Sans', sans-serif;">Thalia Martinez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./about-me.html" style="font-family: 'Josefin Sans', sans-serif;">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html" style="font-family: 'Josefin Sans', sans-serif;">About Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./portfolio.html" style="font-family: 'Josefin Sans', sans-serif;">Portfolio</a>
@@ -32,10 +32,31 @@
                 </li>
             </ul>
         </div>
-        
     </nav>
-
-    <h1 style="font-family: 'Josefin Sans', sans-serif;">Welcome to my personal website!</h1>
+    <!-- About Me Content -->
+    <section class="container" style="font-family: 'Josefin Sans', sans-serif;">
+        <div class= "row">
+            <div class="col-sm-12">
+                <header class = "h1">
+                   <h1>About Me</h1> 
+                </header>
+                <div class="row">
+                    <div class ="col-sm-12">
+                        <div class = "img">
+                            <img class = "img" src= "Thalia.jpeg" alt= "Thalia Martinez">
+                        </div>
+                        <p>
+                            Hello, my name is Thalia Martinez and welcome to my bio page! I am a computer science major who is also
+                            working
+                            towards a fulll stack developer certification. My hobbies include binge-watching any streaming platform,
+                            practicing makeup looks, and making youtube videos. I've worked at In-N-Out Burger for about 4 years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
