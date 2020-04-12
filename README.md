@@ -5,3 +5,6 @@ Using Bootstrap we were instructed to create a web application that had a respon
 
 Built With
 Bootstrap
+
+![Screenshot of validation]
+(./validation.png)
